@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>搜索结果 - Dienne 沙发床</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body data-page="search">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Dienne 首页">
+        <img src="assets/logo.png" alt="Dienne" />
+      </a>
+      <form class="site-search" data-search-form>
+        <input
+          type="search"
+          name="q"
+          aria-label="搜索产品"
+          placeholder="搜索产品名称或长度"
+          autocomplete="off"
+        />
+        <button type="submit">搜索</button>
+      </form>
+    </header>
+
+    <main>
+      <section class="page-intro" aria-labelledby="page-title">
+        <p>Dienne Sofa Beds</p>
+        <h2 id="page-title">搜索结果</h2>
+      </section>
+
+      <section class="catalog-shell">
+        <aside class="filters" aria-label="产品筛选">
+          <div class="filter-group">
+            <span class="filter-title">系列</span>
+            <label><input type="checkbox" value="regular" data-filter-series checked /> 常规系列</label>
+            <label><input type="checkbox" value="living" data-filter-series checked /> 客厅系列</label>
+          </div>
+          <div class="filter-group">
+            <span class="filter-title">价格区间</span>
+            <div class="range-row">
+              <input type="number" data-price-min min="10000" max="100000" step="1000" aria-label="最低价格" />
+              <span>至</span>
+              <input type="number" data-price-max min="10000" max="100000" step="1000" aria-label="最高价格" />
+            </div>
+            <div class="price-actions">
+              <button type="button" data-price-apply>筛选</button>
+              <button type="button" data-price-clear>清空</button>
+            </div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-title">沙发长度</span>
+            <div class="range-row">
+              <input type="number" data-length-min step="10" aria-label="最短沙发长度" />
+              <span>至</span>
+              <input type="number" data-length-max step="10" aria-label="最长沙发长度" />
+            </div>
+            <div class="length-actions">
+              <button type="button" data-length-apply>筛选</button>
+              <button type="button" data-length-clear>清空</button>
+            </div>
+          </div>
+          <div class="filter-group">
+            <label class="switch-line"><input type="checkbox" data-filter-stock /> 现货</label>
+          </div>
+          <div class="filter-group">
+            <label class="switch-line"><input type="checkbox" data-filter-robot /> 扫地机器人可进出</label>
+          </div>
+          <a class="sidebar-link" href="faq.html">常见问题</a>
+        </aside>
+
+        <section class="catalog-area">
+          <div class="catalog-meta">
+            <strong data-result-title>搜索结果</strong>
+            <span data-result-count></span>
+          </div>
+          <div class="product-grid" data-product-grid></div>
+          <p class="empty-state" data-empty hidden>没有找到符合条件的产品。</p>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <h2>关注我们</h2>
+      <img data-footer-contact src="assets/generated/footer-contact.jpg" alt="Dienne 关注我们二维码和渠道名称" />
+    </footer>
+
+    <script src="assets/catalog.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
