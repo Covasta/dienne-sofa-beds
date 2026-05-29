@@ -397,9 +397,18 @@
     return match && match.mattressSize ? match.mattressSize : "";
   }
 
-  function stylePrice(row, index) {
+  function stylePrice(row, label, fallbackIndex) {
     const prices = row.prices || [];
-    return prices[index] ? displayText(formatPrice(prices[index].value)) : "";
+    const matched = prices.find((price) => String(price.label || "").includes(label));
+    if (matched) return displayText(formatPrice(matched.value));
+
+    const hasFabricLabels = prices.some((price) => {
+      const priceLabelText = String(price.label || "");
+      return priceLabelText.includes("\u5e38\u89c4\u9762\u6599") || priceLabelText.includes("\u9ad8\u7ea7\u9762\u6599");
+    });
+    if (hasFabricLabels) return "";
+
+    return prices[fallbackIndex] ? displayText(formatPrice(prices[fallbackIndex].value)) : "";
   }
 
   function productStylesTable(product) {
@@ -427,8 +436,8 @@
                   <td>${displayText(row.code)}</td>
                   <td>${displayText(row.sofaSize)}</td>
                   <td>${displayText(row.mattressSize)}</td>
-                  <td>${stylePrice(row, 0)}</td>
-                  <td>${stylePrice(row, 1)}</td>
+                  <td>${stylePrice(row, "\u5e38\u89c4\u9762\u6599", 0)}</td>
+                  <td>${stylePrice(row, "\u9ad8\u7ea7\u9762\u6599", 1)}</td>
                 </tr>
               `
             )
