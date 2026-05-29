@@ -465,6 +465,29 @@
     `;
   }
 
+  function stockImagesSection(product) {
+    const stockImages = product.stockImages || [];
+    if (!stockImages.length) return "";
+
+    return `
+      <section class="detail-section stock-gallery">
+        <h2>现货图片</h2>
+        <div class="stock-gallery__grid">
+          ${stockImages
+            .map(
+              (image) => `
+                <figure>
+                  <img src="${escapeHtml(image.src)}" alt="${escapeHtml(image.label || product.name)}" loading="lazy" />
+                  <figcaption>${escapeHtml(image.label || product.name)}</figcaption>
+                </figure>
+              `
+            )
+            .join("")}
+        </div>
+      </section>
+    `;
+  }
+
   function renderProductDetail() {
     const container = document.querySelector("[data-product-detail]");
     if (!container) return;
@@ -513,6 +536,8 @@
           <h2>现货库存</h2>
           ${variantsTable(product)}
         </section>
+
+        ${stockImagesSection(product)}
       </section>
     `;
   }

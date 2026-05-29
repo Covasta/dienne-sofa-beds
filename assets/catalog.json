@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-29T09:19:51",
+  "generatedAt": "2026-05-29T17:30:30",
   "sourceDirectory": "D:\\360MoveData\\Users\\Administrator\\Documents\\Dienne\\Dienne沙发床资料",
   "products": [
     {
@@ -113,6 +113,12 @@
           "wholesalePrice": 32980,
           "location": "上海办\n\nPI：16820。2402S15S041 退货，有瑕疵，扶手横梁运输途中出现弯折，不影响使用",
           "mattress": "162x197x13"
+        }
+      ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/regular-01-ghali/stock-01.jpg",
+          "label": "Ghali COD. 3500"
         }
       ],
       "productStyles": [
@@ -245,6 +251,7 @@
           "mattress": ""
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -464,6 +471,7 @@
           "mattress": "142x197x17"
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -596,6 +604,7 @@
           "mattress": "162x197x17"
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -740,6 +749,7 @@
           "mattress": "162x197x17"
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -885,6 +895,12 @@
           "mattress": ""
         }
       ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/regular-06-coupeclever/stock-01.jpg",
+          "label": "Clever COD.3000"
+        }
+      ],
       "productStyles": [
         {
           "code": "COD. 3000 底座：有5种不同的金属饰面可供选择。",
@@ -998,6 +1014,12 @@
           "wholesalePrice": 46850,
           "location": "钛得1库\n\nPO 25P1222DI085",
           "mattress": "162x210x13"
+        }
+      ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/regular-07-alpi/stock-01.jpg",
+          "label": "Alpi COD.3500"
         }
       ],
       "productStyles": [
@@ -1144,6 +1166,7 @@
           "mattress": "162×197×17"
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -1273,6 +1296,12 @@
           "mattress": "162x197x13"
         }
       ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/regular-09-evo/stock-01.jpg",
+          "label": "EVO COD. 3500"
+        }
+      ],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -1386,6 +1415,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -1526,6 +1556,12 @@
           "mattress": ""
         }
       ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/regular-11-lia/stock-01.jpg",
+          "label": "Lia COD. 1500"
+        }
+      ],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -1641,6 +1677,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 1000",
@@ -1690,6 +1727,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -1800,6 +1838,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -1909,6 +1948,7 @@
       },
       "robotFriendly": true,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -2034,6 +2074,7 @@
           "mattress": ""
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -2180,6 +2221,7 @@
           "mattress": ""
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -2461,6 +2503,7 @@
           "mattress": "162x197x17"
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -2605,6 +2648,7 @@
           "mattress": ""
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -2735,6 +2779,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -2844,6 +2889,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -2953,6 +2999,7 @@
       },
       "robotFriendly": true,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -3062,6 +3109,7 @@
       },
       "robotFriendly": true,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -3171,6 +3219,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -3281,6 +3330,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3000",
@@ -3481,6 +3531,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3045",
@@ -3546,6 +3597,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -3655,6 +3707,7 @@
       },
       "robotFriendly": true,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -3855,6 +3908,7 @@
           "mattress": ""
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "底层木条机构床架",
@@ -3944,6 +3998,7 @@
       },
       "robotFriendly": true,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -4128,6 +4183,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500R",
@@ -4329,6 +4385,16 @@
           "mattress": "142x197x17"
         }
       ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/regular-32-modern/stock-01.jpg",
+          "label": "MODERN COD.1000"
+        },
+        {
+          "src": "assets/generated/products/regular-32-modern/stock-02.jpg",
+          "label": "MODERN COD.3000"
+        }
+      ],
       "productStyles": [
         {
           "code": "COD. 3000",
@@ -4399,6 +4465,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -4508,6 +4575,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -4617,6 +4685,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -4741,6 +4810,12 @@
           "wholesalePrice": 64960,
           "location": "钛得1库\n\nPO 25P1222DI085",
           "mattress": "162x197x13"
+        }
+      ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/living-01-nube/stock-01.jpg",
+          "label": "Nube COD. 3500"
         }
       ],
       "productStyles": [
@@ -4887,6 +4962,12 @@
           "mattress": "162x190x13"
         }
       ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/living-02-bill/stock-01.jpg",
+          "label": "Bill COD. 3500"
+        }
+      ],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -4985,6 +5066,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -5095,6 +5177,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -5326,6 +5409,16 @@
           "mattress": ""
         }
       ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/living-05-curvi/stock-01.jpg",
+          "label": "Curvi COD.1000F"
+        },
+        {
+          "src": "assets/generated/products/living-05-curvi/stock-02.jpg",
+          "label": "Curvi COD.3034"
+        }
+      ],
       "productStyles": [
         {
           "code": "COD. 3034",
@@ -5396,6 +5489,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -5522,6 +5616,7 @@
           "mattress": ""
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -5652,6 +5747,12 @@
           "mattress": ""
         }
       ],
+      "stockImages": [
+        {
+          "src": "assets/generated/products/living-08-more/stock-01.jpg",
+          "label": "More COD. 3500"
+        }
+      ],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -5750,6 +5851,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -5923,6 +6025,7 @@
           "mattress": ""
         }
       ],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -6189,6 +6292,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD.5400/COD.5406 内部单人床结构",
@@ -6279,6 +6383,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -6645,6 +6750,7 @@
       },
       "robotFriendly": true,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -6816,6 +6922,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 4000",
@@ -7000,6 +7107,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",
@@ -7155,6 +7263,7 @@
       },
       "robotFriendly": false,
       "variants": [],
+      "stockImages": [],
       "productStyles": [
         {
           "code": "COD. 3500",

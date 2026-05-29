@@ -354,6 +354,30 @@ main {
   margin-top: 0;
 }
 
+.stock-gallery__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.stock-gallery figure {
+  margin: 0;
+}
+
+.stock-gallery img {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+
+.stock-gallery figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .detail-copy {
   border-top: 1px solid var(--ink);
   padding-top: 24px;
@@ -617,7 +641,8 @@ main {
   }
 
   .product-grid,
-  .detail-facts {
+  .detail-facts,
+  .stock-gallery__grid {
     grid-template-columns: 1fr;
   }
 
